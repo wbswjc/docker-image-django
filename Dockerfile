@@ -4,7 +4,7 @@ RUN pip install django
 
 RUN django-admin startproject app
 
-RUN echo 'alias hi="python manage.py"' >> ~/.bashrc
+RUN echo 'alias hey="python manage.py"' >> ~/.bashrc
 
 WORKDIR /app
 
